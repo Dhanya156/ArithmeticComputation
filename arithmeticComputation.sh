@@ -5,5 +5,5 @@ read -p "Enter first input " a
 read -p "Enter second input " b
 read -p "Enter third input " c
 
-Compute1=`awk 'BEGIN{printf("%.2f",'$a' + '$b' * '$c')}'`
-echo  $Compute1
+Compute2=`awk 'BEGIN{printf("%.2f",'$a' * '$b' + '$c')}'`
+echo  $Compute2
